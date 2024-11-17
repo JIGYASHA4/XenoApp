@@ -1,0 +1,92 @@
+/* Basic styling for the app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #ff514d;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 22%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-segment-btn,
+.create-campaign-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.create-segment-btn:hover,
+.create-campaign-btn:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
